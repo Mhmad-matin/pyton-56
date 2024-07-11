@@ -1,13 +1,13 @@
 
 number = 50
-print("مقدار متغیر عددی", number)
+print(number)
 
 
-mianterm = 60
-paianterm = 40
+mianterm = 18
+paianterm = 20
 
 
-total_grade = mianterm + paianterm
+total_grade = mianterm + paianterm % 5
 
 
-print("مجموع امتحان میان ترم و نهایی", mianterm, "+", paianterm, "=", total_grade)
+print( mianterm, "+", paianterm, "=", total_grade )
