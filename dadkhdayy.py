@@ -1,4 +1,11 @@
-# جداسازی اعداد زوج یک تا بیست
-for i in range(1,21):
-    if i%2 == 0:
-        print(i)
+x=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+print(x[1])
+print(x[3])
+print(x[5])
+print(x[7])
+print(x[9])
+print(x[11])
+print(x[13])
+print(x[15])
+print(x[17])
+print(x[19])
